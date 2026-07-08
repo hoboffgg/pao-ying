@@ -1,0 +1,23 @@
+body{
+    text-align: center;
+    background-color: blanchedalmond;
+}
+
+img{
+    border-radius: 50%;
+}
+
+button{
+    width: 300px;
+    padding: 10px 20px;
+    background-color: blueviolet;
+    color: bisque;
+    font-size: large;
+    border: none;
+    margin: 10px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: chartreuse;
+}
