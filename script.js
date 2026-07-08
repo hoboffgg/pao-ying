@@ -22,7 +22,7 @@ randomButton.addEventListener('click',function(){
     const choice = getRandomChoice();
     const choiceT = choiceTranslate[choice];
 
-    imageChange.src = 'images/' + choice + '.png';
+    imageChange.src = choice + '.png';
     textChange.innerHTML = 'สุ่มได้ : ' + choiceT;
 
     randomButton.style.display = 'none';
